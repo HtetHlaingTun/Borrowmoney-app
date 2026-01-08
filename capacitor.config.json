@@ -1,0 +1,21 @@
+{
+    "appId": "com.borrow_money.myapp",
+    "appName": "myapp",
+    "webDir": "public",
+    "server": {
+        "url": "http://localhost:8001",
+        "cleartext": true
+    },
+    "ios": {
+        "contentInset": "automatic",
+        "scrollEnabled": true,
+        "backgroundColor": "#ffffff"
+    },
+    "plugins": {
+        "StatusBar": {
+            "style": "default",
+            "backgroundColor": "#ffffff",
+            "overlaysWebView": false
+        }
+    }
+}
